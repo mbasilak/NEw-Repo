@@ -1,0 +1,11 @@
+<form method="post" action="">{% csrf_token %}
+    Total Rakes {{ form.total_rakes }} <br><br>
+    Demand      {{form.demand}} <br><br>
+    Initial Stock Level {{form.initial_stock_level}} <br><br>
+    Storage Capacity {{form.storage_capacity}} <br><br>
+    Terminal Capacity {{form.terminal_capacity}} <br><br>
+    Maximum Allotment {{form.max_allotment}} <br><br>
+    Weekly Penalty {{form.weekly_penalty}} <br><br>
+    Combination Matric {{form.comb_matrix}}
+    <input type="submit" value="equals" />
+</form>
